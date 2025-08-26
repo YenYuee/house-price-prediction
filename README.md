@@ -1,22 +1,70 @@
- 🏡 House Price Prediction  
+# 🏡 House Price Prediction Project  
 
-A machine learning project that predicts house prices based on features such as square footage, number of rooms, garage size, and more.  
-This project uses **Linear Regression, Regularization (Ridge/Lasso), and GridSearchCV** to optimize performance.  
-
----
-
-## 📊 Features
-- Data preprocessing & cleaning  
-- Exploratory Data Analysis (EDA)  
-- Feature selection based on correlation  
-- Model training & evaluation with metrics (R², RMSE, MAPE)  
-- Hyperparameter tuning with GridSearchCV  
+A machine learning project to predict house prices using regression techniques.  
+The dataset is based on the **Kaggle House Prices - Advanced Regression Techniques** competition.  
 
 ---
 
-## 🚀 Installation
+## 📊 Project Overview  
+This project applies **Exploratory Data Analysis (EDA)** and **Machine Learning models** to predict house prices.  
+I experimented with **Linear Regression, Ridge, and Lasso Regression** to improve performance and reduce overfitting.  
 
-```bash
-git clone https://github.com/your-username/house-price-prediction.git
-cd house-price-prediction
-pip install -r requirements.txt
+---
+
+## ⚙️ Technologies Used  
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
+
+---
+
+## 🔬 Exploratory Data Analysis (EDA)  
+- Checked dataset shape, info, and missing values  
+- Examined feature correlations with `SalePrice`  
+- Visualized categorical & continuous features (boxplots & scatterplots)  
+
+---
+
+## 🧠 Models Used  
+- **Linear Regression**  
+- **Ridge Regression** (with hyperparameter tuning using GridSearchCV)  
+- **Lasso Regression** (with hyperparameter tuning using GridSearchCV)  
+
+---
+
+## 📈 Results  
+
+- **Train R²**: `0.7508`  
+- **Test R²**: `0.7924`  
+- **Best Ridge alpha**: `10`  
+- **Best Ridge R² (CV)**: `0.7339`  
+- **Best Lasso alpha**: `100`  
+- **Best Lasso R² (CV)**: `0.7339`  
+- **Linear Regression Test R²**: `0.7924`  
+
+**Error Metrics (Best Ridge):**  
+- **MSE**: `1,590,310,548.93`  
+- **RMSE**: `39,878.70`  
+- **MAPE**: `15.55%`  
+
+---
+
+## 📊 Visualization  
+
+**Predicted vs Actual SalePrice**  
+The scatter plot shows how close the predicted values are to the actual values.  
+A strong diagonal line indicates good predictions.  
+
+![Prediction vs Actual](prediction_vs_actual.png)  
+
+---
+
+## 🚀 How to Run  
+
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/your-username/house-price-prediction.git
+   cd house-price-prediction
