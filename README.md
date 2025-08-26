@@ -58,7 +58,7 @@ I experimented with **Linear Regression, Ridge, and Lasso Regression** to improv
 The scatter plot shows how close the predicted values are to the actual values.  
 A strong diagonal line indicates good predictions.  
 
-![Prediction vs Actual](Prediction_vs_Actual.png)  
+![Prediction vs Actual](https://raw.githubusercontent.com/YenYuee/house-price-prediction/refs/heads/main/Prediction%20vs%20Actual.png)  
 
 ---
 
