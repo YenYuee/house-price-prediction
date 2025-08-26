@@ -58,7 +58,7 @@ I experimented with **Linear Regression, Ridge, and Lasso Regression** to improv
 The scatter plot shows how close the predicted values are to the actual values.  
 A strong diagonal line indicates good predictions.  
 
-![Prediction vs Actual](prediction_vs_actual.png)  
+![Prediction vs Actual](Prediction_vs_Actual.png)  
 
 ---
 
